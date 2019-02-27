@@ -15,5 +15,5 @@ public class CalculatriceScientifique {
 	public double getLastResult() {
 		return m_last_result;
 	}
-	
+
 }

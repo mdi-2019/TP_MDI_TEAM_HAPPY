@@ -20,5 +20,10 @@ public class CalculatriceScientifique {
 		m_last_result = Math.log(nombre)/Math.log(base);
 		return m_last_result;
 	}
+	
+	public double puissance10(double nombre) {
+		m_last_result = Math.pow(nombre, 10.0);
+		return m_last_result;
+	}
 
 }

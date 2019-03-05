@@ -25,6 +25,10 @@ public class App
         else if(type == 2) {
         	calc = "scientifique";
         }
+
+        CalculatriceScientifique calculatrice = new CalculatriceScientifique();
+
+        System.out.println( " WOW ce logarithme est ouf : " + calculatrice.logarithme(5.0,5.0));
         
         sc.close();
         System.out.println("Type choisi : "+calc);

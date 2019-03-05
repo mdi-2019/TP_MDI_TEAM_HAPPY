@@ -1,8 +1,7 @@
 package org.esir.mdi_tp1_GLTPQ;
 
-import static org.junit.Assert.*;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CaculatriceScientifiqueTests {
 
@@ -12,7 +11,7 @@ public class CaculatriceScientifiqueTests {
 		CalculatriceScientifique calcSi = new CalculatriceScientifique();
 		double b = calcSi.logarithme(10, Math.E);
 		
-		assertTrue("a != b",a==b);
+		assertTrue(a==b, "a != b");
 	}
 
 	@Test
@@ -21,6 +20,6 @@ public class CaculatriceScientifiqueTests {
 		CalculatriceScientifique calcSi = new CalculatriceScientifique();
 		double b = calcSi.puissance10(2);
 		
-		assertTrue("a != b",a==b);
+		assertTrue(a==b, "a != b");
 	}
 }
